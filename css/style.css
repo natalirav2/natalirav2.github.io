@@ -1,0 +1,126 @@
+* { 
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+}
+
+
+body{
+    background: #f5f7fa;
+    padding: 20px;
+   
+}
+.wrapper{
+    background: #fff;
+    display: flex;
+}
+.sidebar{
+    background: #364761;
+    width: 370px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.my-foto{
+    width: 370px;
+}
+.about_my_container{
+    
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+.contacte{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+}
+.contacte-title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.contacte-link{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #070404;
+    text-decoration: none;
+}
+.fas fa-mobile-alt:hover{
+    background: red;
+}
+.contacte-litter{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    margin-right: 10px;
+}
+.profession{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.name{
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 69px;
+}
+.description{
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 24px;
+    margin-top: 24px;
+}
+.about_my_container{
+    margin-bottom: 65px;
+}
+.about-me-title{
+    font-size:22px;
+    font-weight: 700;
+    line-height:24px;
+    margin-bottom:10px;
+    margin-top: 45px;
+}
+.projects-link{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    color: #595959;
+}
+.projects-item{
+    font-weight: 900px;
+    margin-left: 15px;
+}
+.projects_container{
+    margin-bottom: 55px;
+}
+.work-title{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    color: #595959;
+    margin-left: 15px;
+}
+.btn{
+    display: block;
+    width: 150px;
+    height: 50px;
+    border: 1px solid #2E8B57;
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color: #2E8B57;
+    font-weight: bold;
+
+}
+.btn:hover{
+    border: 1px solid #fff;
+    color: #fff;
+    background: #2E8B57;
