@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-image: url(https://st.depositphotos.com/1015682/2086/i/600/depositphotos_20867981-stock-photo-earth-at-night-with-city.jpg)  ;
+	height: 1300px;
+}
+.btn{
+    display: block;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #2E8B57;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color: #2E8B57;
+    font-weight: bold;
+
+}
+.btn:hover{
+    border: 1px solid #fff;
+    color: #fff;
+    background: #2E8B57;
