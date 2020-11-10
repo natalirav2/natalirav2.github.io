@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.wrapper{
+	position: relative;
+	width: 1055px;
+	height: 530px;
+	margin: 30px auto;
+	padding: 25px 65px 40px 50px;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#292223+0,463735+100 */
+background: #292223; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #292223 0%, #463735 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #292223 0%,#463735 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #292223 0%,#463735 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#292223', endColorstr='#463735',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.menu_page{
+	width: 950px;
+    height: 395px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.photo{
+	width: 330px;
+	height: 100%;
+	background-image: url(https://st3.depositphotos.com/1001686/12628/i/600/depositphotos_126286588-stock-photo-burger-preparation-ingredients.jpg);
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+}
+.photo_menu{
+	display: flex;
+    width: 338px;
+    height: 210px;
+    background: #000;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    left: -12px;
+    bottom: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.title{
+	display: block;
+	font-size: 45px;
+    width: 200px;
+	text-transform: uppercase;
+	padding: 10px 0 0 0;
+    text-align: center;
+    line-height: 0.9;
+}
+.price{
+	font-size: 15px;
+    padding-top: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.corps{
+	display: block;
+	width: 610px;
+	height: 100%;
+    background: #fff;
+    font-family: 'Zilla Slab', serif;
+}
+
+h2{
+	display: block;
+	padding: 35px 30px 0px 85px;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+}
+.part{
+	display: block;
+	list-style: none;
+    padding: 30px 0;
+}
+.part_menu{
+	float: left;
+    flex-direction: column;
+    position: relative;
+    width: 200px;
+    height: 82px;
+    border-bottom: 1px solid #D5D5D5;
+    font-size: 19px;
+    opacity: 0.8;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part_menu:before {
+    content: '';
+    position: absolute;
+    bottom: -5.5px;
+    background: #D5D5D5;
+    width: 9px;
+    height: 9px;
+    transform: rotate(45deg);
+}
+.price_menu{
+	color: #8c94a1;
+}
+.part_menu:nth-child(odd) {
+    margin-right: 50px;
+    margin-left: 70px;
+}
+.btn {
+    float: right;
+    margin: 10px -7px 0 0;
+    width: 176px;
+    height: 55px;
+    padding: 17px 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
