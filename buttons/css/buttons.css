@@ -4,8 +4,8 @@
 	box-sizing: border-box;
 }
 body{
-	background-image: url(https://st.depositphotos.com/1015682/2086/i/600/depositphotos_20867981-stock-photo-earth-at-night-with-city.jpg) cover no-repeat;
-	
+	background-image: url(https://st.depositphotos.com/1015682/2086/i/600/depositphotos_20867981-stock-photo-earth-at-night-with-city.jpg);
+	backgrround-repeat:no-repeat;
 	height: 1300px;
 }
 .btn{
