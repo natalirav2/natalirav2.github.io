@@ -1,0 +1,204 @@
+*{
+	margin: 0;
+	position: 0;
+	box-sizing: border-box;
+	font-family: Open Sans, sans-serif;
+}
+ body{
+	background: #383838;
+	margin: 0 auto;
+	background-image: url(../img/bg.png);
+	font-family: Open Sans, sans-serif;
+	min-width: 1296px;
+}
+header{
+	background: url(../img/bg-01.jpg)0 -240px/cover no-repeat;
+	height: 434px;
+}
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+.container{
+	max-width: 870px;
+	margin: 0 auto;
+}
+
+.menu{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+.menu li:nth-child(1){
+	border:  1px solid red;
+	width: 80px;
+	height: 50px;
+	text-align: center;
+	background: red;
+}
+.menu li{
+	float: left;
+	display: block;
+	margin-right: 41px;
+	padding-top: 18px;
+}
+.menu li a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+
+}
+h1{
+	color: #fff;
+	font-size: 60px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 105px;
+	font-family: Metal Mania;
+	margin-bottom: 60px;
+
+}
+.button{
+	background: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e0060c+1,fb3063+100 */
+	background: #e0060c; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #e0060c 1%, #fb3063 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #e0060c 1%,#fb3063 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #e0060c 1%,#fb3063 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0060c', endColorstr='#fb3063',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */;
+	color: #fff;
+	display: block;
+	width: 144px;
+	padding: 10px 0;
+	margin: 0 auto;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+	margin-top: 20px;
+}
+.button.g{
+	width: 290px;
+	padding: 17px;
+
+}
+h2{
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 70px;
+	padding-bottom: 43px;
+
+}
+.tour-card {
+	width: 200px;
+	float: left;
+	margin-top: 40px;
+	padding-left:  10px;
+	line-height: 20px;
+}
+.tour-card:last-child{
+	float: right;
+	
+}
+.tour-card.madrid{
+	background-image: url(../img/tour/madrid.jpg);
+	height: 213px;
+	display: block;
+}
+.tour-card.turin{
+	background-image: url(../img/tour/turin.jpg);
+	height: 213px;
+	display: block;
+	margin-left: 24px;
+
+}
+.tour-card.hamburg{
+	background-image: url(../img/tour/hamburg.jpg);
+	height: 213px;
+	margin-left: 24px;
+}
+.tour-card.krakow{
+	background-image: url(../img/tour/krakow.jpg);
+	height: 213px;
+}
+h3{
+	color: #fff;
+	margin-top: 23px;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+.tour-place, .fa fa-map-marker{
+	font-size: 12px;
+}
+.tour-date{
+	font-size: 10px;
+	font-style:oblique;
+}
+
+#subscribe{
+	background-image: url(../img/bg-02.jpg);
+	background-position: 0 -450px;
+	height: 284px;
+	margin: 0 auto;
+}
+.pitch{
+	text-align: center;
+}
+.subscribe-form,.social{
+	text-align: center;
+	margin-top: 25px;
+}
+
+button{
+	background: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e0060c+1,fb3063+100 */
+	background: #e0060c; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #e0060c 1%, #fb3063 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #e0060c 1%,#fb3063 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #e0060c 1%,#fb3063 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0060c', endColorstr='#fb3063',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	border:1px solid red;
+	padding: 11px;
+	width: 128px;
+	font-weight: bold;
+}
+input{
+	padding: 10px;
+	width: 210px;
+}
+p{
+	color: #fff;
+}
+
+.social a {
+	position: relative;
+	color: #fff;
+	padding: 13px;
+}
+.copyright{
+	text-align: center;
+	padding-top: 18px;
+}
+.photo{
+	display: inline-block;
+	width: 30%;
+	margin: 13px;
+}
+.photo img{
+	display: block;
+	width:100%;
+}
+#gallery{
+	padding-bottom: 28px;
+}
+
+
+
+
