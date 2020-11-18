@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: Arial, sans-serif;
+	
+}
+img{
+	display: block;
+	width: 100%;
+}
+.container{
+	max-width: 680px;
+	background:#fff; 
+}
+.cont_text{
+	max-width: 545px;
+	margin: 0 auto;
+	padding: 20px 10px;
+}
+
+.text>span{
+	display: block;
+	padding-bottom: 10px;
+}
+.text>span:first-child{
+	
+	text-align: center;
+}
+ul{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+li{
+	padding: 0 15px;
+	list-style-position: inside;
+}
+.item_text{
+	padding: 20px; 
+	text-align: center;
+	font-weight: bold;
+}
+.item{
+	position: relative;
+	min-height: 355px;
+}
+.item_btn{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #cf5b4e;
+	font-weight: bold;
+	text-decoration: none;
+	color: #fff;
+}
+.text:nth-child(6) span{
+	text-align: left;
+}
+.cont_blue{
+	display: block;
+	widows: 638px;
+	height: 173px;
+	background: #3a849b;
+	padding-top: 20px;
+}
+.unsubscribe{
+	display: block;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	padding-top: 20px;
+	font-weight: bold;
+}
+.unsubscribe p{
+	padding-top: 20px;
+}
+
+.uns{
+	display: block;
+	font-size: 12px;
+	color: #fff;
+	font-weight: bold;
+	padding-top: 14px;
+}
+.link a{
+	background: url(../img/css_sprites.png) 0 2px / 32px 64px no-repeat;
+	width: 32px;
+    height: 32px;
+    padding-top: 30px;
+}
+
+.link a:last-child{
+	background-position: 0 -30px;
+}
+
+.link{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+@media screen and (min-width: 800px){
+	.wrapper{
+	border-top:  40px solid #3a849b;
+	border-right: 10px solid #3a849b;
+	border-left: 10px solid #3a849b;
+	border-bottom: 20px solid #3a849b;
+}
+ul{
+	padding-top: 24px;
+	padding-bottom: 35px;
+}
+}
+@media screen and (min-width: 760px){
+	.wrapper{
+	max-width: 705px;
+	margin: 0 auto;
+	padding: 0 23px 23px;
+}
+}
+@media screen and (min-width: 580px){
+	.row{
+	display: flex;
+	position: relative;
+	min-height: 213px;
+	padding-bottom: 30px;
+}
+.col-1-2{
+	width:calc(50%);
+}
+.item:first-child{
+	margin-right: 30px;
+}
+}
