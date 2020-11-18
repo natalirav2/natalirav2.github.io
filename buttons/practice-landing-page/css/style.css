@@ -1,0 +1,194 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+
+	font-family:Raleway, sans-serif;
+}
+img{
+	display: block;
+	width: 100%;
+}
+
+header .container{
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.container{
+	margin: 0 auto;
+	display: block;
+	max-width: 340px;
+	text-align: center;
+}
+.brand{
+	color:#5cace3;
+}
+.menu li{
+	list-style: none;
+}
+.menu a{
+	padding: 10px;
+	font-size: 10px;
+	color: #b6b6b6;
+	text-decoration: none;
+}
+.menu{
+	display: flex;
+}
+.jumbotron{
+	background: url(../img/jumbotron.jpg);
+/*	height: 170px;*/
+	padding-bottom: 15px;
+}
+h1{
+	display: block;
+	text-align: center;
+	padding-top: 15px;
+	color:#fff;
+	margin: 0;
+}
+.button{
+	display: block;
+	width: 240px;
+	margin: 0 auto;
+	background: #fa5ba5;
+	color: #fff;
+	border-radius: 30px;
+	padding: 10px 0;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 30px;
+}
+h2{
+	display: block;
+	font-size: 20px;
+	text-align: center;
+	padding: 10px;
+	color: #282828;
+}
+.service{
+	text-align: center;
+	padding: 15px;
+	color: #9d9d9d;
+}
+.service p{
+	padding-top: 15px;
+	color: #9d9d9d;
+}
+.post{
+	padding: 0 20px 20px;
+}
+h3{
+	font-size: 20px;
+	color: #282828;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.blog{
+	background: #fcfcfc;
+}
+.date{
+	padding-bottom: 7px;
+}
+footer{
+	background: #38404b;
+	padding: 15px;
+}
+footer .menu{
+	justify-content: center;
+	padding: 10px;
+}
+footer .brand, .menu a{
+	color: #8f9aaa;
+}
+.post p{
+	font-size: 12px;
+	color: #9d9d9d;
+}
+.copyright{
+font-size: 8px;
+color: #fff;
+}
+@media screen and (min-width: 580px){
+.container{
+	max-width: 580px;
+}
+.service{
+	width: 33.33%;
+	float: left;
+}
+.services{
+display: flex;
+}
+.post img{
+	width: 280px;
+	padding-right: 10px;
+}
+.post{
+	display: flex;
+}
+h2{
+	padding: 20px;
+}
+.text p{
+	line-height: 1.5;
+}
+.service p{
+	line-height: 1.5;
+}
+}
+@media screen and (min-width: 780px){
+.container{
+	max-width: 780px;
+}
+.jumbotron{
+
+}
+h1{
+	padding-top: 110px;
+	padding-bottom: 62px;
+}
+.button{
+	margin-top: 0;
+	margin-bottom: 125px;
+}
+h2{
+	padding-top: 40px;
+}
+
+}
+@media screen and (min-width: 960px){
+.container{
+	max-width: 960px;
+}
+.button{
+	padding: 20px;
+}
+h2{
+	padding-top: 70px;
+	padding-bottom: 40px;
+}
+.service p{
+	padding: 30px 10px;
+	line-height: 1.5;
+}
+.text {
+	text-align: left;
+	padding-left: 30px;
+}
+h3{
+	padding: 15px 0;
+}
+.menu{
+	margin: 16px;
+}
+footer .brand{
+	padding-top: 40px;
+	font-size: 17px;
+}
+}
+
+
